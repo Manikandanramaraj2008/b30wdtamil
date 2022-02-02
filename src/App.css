@@ -1,1 +1,30 @@
+.App{
+    font-size: sans-serif;
+}
 
+.movie-poster{
+width:350px;
+height:500px;
+object-fit: cover;
+}
+.movie-container{
+    background: orange;
+    width:350px;
+}
+
+.movie-specs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.welcome{
+    font-family: "pacifico", cursive;
+}
+
+.user-profile-pic{
+    /* height: 800px;
+    width: 600px; */
+    object-fit: cover;
+     border-radius: 50%; 
+
+}

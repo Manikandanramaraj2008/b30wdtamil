@@ -21,16 +21,18 @@ import './App.css';
 return <div className='App'>
   {users.map((usr)=>(<Welcome name={usr.name}profile={usr.profile}/>
        ))}
-  
+       <Welcome/>
+   {/* < Movie/> */}
         </div>
  } 
 
 function Welcome({name,profile}){
-  
+  // const[like,setLike]= useState(0)
   return (
     <div className="Welcome">
       <img className="user-profile-pic" src ={profile} alt ="profile-pic"/>
       <h1>Hello,{name}👌🌹</h1>
+     
     </div>
   );
   }
@@ -38,11 +40,48 @@ function Welcome({name,profile}){
 // function counter(){
 // return(
 //   <div>
-//     <button>like</button>
+//     <button onClick={()=>setLike(like+1)}>👍{like}</button>
 //   </div>
 // )
 
 // }
 
+
+// const x =10;
+// console.log(x);
+
+// const y =[3,4,5]
+// y.push(7)=[3,4,5,7]
+// const z =[...y,z]
+// console.log(y,z)
+
+// function Movie(){
+//   const poster =
+//   "https://terrigen-cdn-dev.marvel.com/content/prod/1x/avengersendgame_lob_crd_05.jpg";
+//   const name ="The Avengers";
+//   const rating = 8;
+//   const summary = "Marvel's The Avengers (classified under the name Marvel Avengers\n Assemble in the United Kingdom and Ireland), or simply The Avengers, is\n a 2012 American superhero film based on the Marvel Comics superhero team\n of the same name.";
+
+//   return <div className="movie-container">
+//     <img src ={poster} alt = {name} className="movie-poster"/>
+//     <div className="movie-specs"></div>
+//     <h2 className="movie-name">{name}</h2>
+//     <p className = "movie-rating">👌{rating}</p>
+//     <p className ="movie-summary">{summary}</p>
+//     </div>
+// }
+
+// function Welcome({name,profile}){
+  
+//   return (
+//     <div className="Welcome">
+//       <img className="user-profile-pic" src ={profile} alt ="profile-pic"/>
+//       <h1>Hello,{name}👌🌹</h1>
+     
+//     </div>
+//   );
+//   }
+
+  
 
 
