@@ -17,14 +17,25 @@ object-fit: cover;
     align-items: center;
     justify-content: space-between;
 }
-.welcome{
+
+.movie-rating{
+    font-size:20px;
+}
+.movie-list{
+    display:flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+ 
+.Hellooo{
     font-family: "pacifico", cursive;
 }
 
 .user-profile-pic{
-    /* height: 800px;
-    width: 600px; */
-    object-fit: cover;
-     border-radius: 50%; 
+     height: 500px;
+    width: 1000px; 
+     /* object-fit: cover; */
+     /* border-radius: 50%;   */
 
-}
+} 
