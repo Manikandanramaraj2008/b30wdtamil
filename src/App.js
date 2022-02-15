@@ -2,6 +2,7 @@ import Hello from './Hello'
 import Hellooo from './Hellooo'
 import Welcome from './Welcome'
 
+
 export default function App(){
     return (
       <div className="App">
@@ -27,14 +28,3 @@ export default function App(){
     );
    }
 
-    function Welcome(props){
-     console.log(props);
-     return(
-       <div className ="Welcome">
-       <h1>Hello...!!! {props.name}💚🎉🌹</h1>
-       </div>
-     )
-   }
-
-
- 
